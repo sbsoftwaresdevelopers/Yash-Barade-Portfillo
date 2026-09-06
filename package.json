@@ -1,0 +1,18 @@
+{
+  "name": "yash-barade-portfolio",
+  "version": "1.0.0",
+  "description": "Premium 3D animated personal portfolio website for Yash Barade (Web Developer & Founder) and SB SOFTWARES DEVELOPERS.",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js"
+  },
+  "keywords": [
+    "portfolio",
+    "yash-barade",
+    "sb-softwares-developers",
+    "3d",
+    "developer"
+  ],
+  "author": "Yash Barade",
+  "license": "MIT"
+}
