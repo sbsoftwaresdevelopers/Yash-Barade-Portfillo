@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-biz" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#161e31" />
+    </linearGradient>
+    <linearGradient id="glow-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f293d" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#bg-biz)" />
+  <rect width="798" height="498" x="1" y="1" rx="15" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+
+  <!-- Browser Chrome -->
+  <rect x="25" y="20" width="750" height="45" rx="8" fill="#111726" />
+  <circle cx="45" cy="42" r="5" fill="#ef4444" />
+  <circle cx="62" cy="42" r="5" fill="#f59e0b" />
+  <circle cx="79" cy="42" r="5" fill="#10b981" />
+  <rect x="120" y="30" width="280" height="25" rx="6" fill="#192238" />
+  <text x="140" y="47" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">https://sbsoftwares.agency/corporate</text>
+
+  <!-- Navigation in mockup -->
+  <rect x="25" y="80" width="750" height="45" fill="rgba(255,255,255,0.02)" />
+  <text x="50" y="108" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="800">SB <tspan fill="#f59e0b">CORP</tspan></text>
+  <text x="450" y="108" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12">Solutions</text>
+  <text x="530" y="108" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12">Services</text>
+  <text x="600" y="108" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12">About</text>
+  <rect x="670" y="90" width="85" height="26" rx="6" fill="url(#glow-gold)" />
+  <text x="685" y="107" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold">Consult Now</text>
+
+  <!-- Hero Section in mockup -->
+  <rect x="25" y="135" width="750" height="200" fill="url(#hero-bg)" />
+  <rect x="50" y="160" width="130" height="22" rx="11" fill="rgba(245,158,11,0.15)" stroke="rgba(245,158,11,0.3)" />
+  <text x="65" y="175" fill="#f59e0b" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700">ENTERPRISE WEB SUITE</text>
+
+  <text x="50" y="215" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="24" font-weight="800">Accelerate Your Digital Presence.</text>
+  <text x="50" y="240" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12">Engineered by SB SOFTWARES DEVELOPERS for fast scaling businesses.</text>
+
+  <rect x="50" y="265" width="140" height="38" rx="8" fill="url(#glow-gold)" />
+  <text x="75" y="289" fill="#0b0f19" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold">Explore Systems →</text>
+
+  <!-- 3D Geometric Floating Element in Mockup -->
+  <polygon points="630,165 710,215 630,265 550,215" fill="none" stroke="#f59e0b" stroke-width="2" />
+  <polygon points="630,185 690,225 630,265 570,225" fill="rgba(245,158,11,0.15)" />
+  <circle cx="630" cy="225" r="22" fill="#38bdf8" opacity="0.8" />
+
+  <!-- 3 Pillars on bottom -->
+  <rect x="45" y="355" width="220" height="110" rx="10" fill="#131c2e" stroke="rgba(255,255,255,0.06)" />
+  <text x="65" y="390" fill="#f59e0b" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold">⚡ 99.8% Speed Score</text>
+  <text x="65" y="415" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">Core Web Vitals optimized architecture</text>
+
+  <rect x="290" y="355" width="220" height="110" rx="10" fill="#131c2e" stroke="rgba(255,255,255,0.06)" />
+  <text x="310" y="390" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold">📱 Fluid Responsiveness</text>
+  <text x="310" y="415" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">Pixel-perfect across mobile &amp; 4K screens</text>
+
+  <rect x="535" y="355" width="220" height="110" rx="10" fill="#131c2e" stroke="rgba(255,255,255,0.06)" />
+  <text x="555" y="390" fill="#34d399" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold">🔒 Secure &amp; Scalable</text>
+  <text x="555" y="415" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">Tailored for modern enterprise security</text>
+</svg>

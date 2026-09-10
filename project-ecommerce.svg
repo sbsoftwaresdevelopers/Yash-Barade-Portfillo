@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131f" />
+      <stop offset="100%" stop-color="#181c2b" />
+    </linearGradient>
+    <linearGradient id="accent-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#bg-grad1)" />
+  <rect width="798" height="498" x="1" y="1" rx="15" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+
+  <!-- App Header Bar -->
+  <rect x="30" y="25" width="740" height="50" rx="10" fill="#131826" stroke="rgba(255,255,255,0.05)" />
+  <circle cx="55" cy="50" r="6" fill="#ef4444" />
+  <circle cx="75" cy="50" r="6" fill="#eab308" />
+  <circle cx="95" cy="50" r="6" fill="#22c55e" />
+  
+  <rect x="130" y="38" width="180" height="24" rx="6" fill="#1c2336" />
+  <text x="145" y="54" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">apex-store.sbsoftwares.com</text>
+
+  <rect x="640" y="38" width="110" height="24" rx="6" fill="url(#accent-amber)" />
+  <text x="662" y="54" fill="#0b0f19" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold">Live Store</text>
+
+  <!-- Left Sidebar Navigation -->
+  <rect x="30" y="90" width="180" height="380" rx="12" fill="#131826" stroke="rgba(255,255,255,0.04)" />
+  <rect x="50" y="115" width="140" height="34" rx="8" fill="rgba(245,158,11,0.12)" stroke="rgba(245,158,11,0.3)" />
+  <text x="75" y="137" fill="#fbbf24" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="bold">📦 Products</text>
+  
+  <rect x="50" y="160" width="140" height="30" rx="6" fill="transparent" />
+  <text x="75" y="180" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12">📊 Sales Pulse</text>
+
+  <rect x="50" y="200" width="140" height="30" rx="6" fill="transparent" />
+  <text x="75" y="220" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12">👥 Customers</text>
+
+  <rect x="50" y="240" width="140" height="30" rx="6" fill="transparent" />
+  <text x="75" y="260" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12">⚡ Checkout Funnel</text>
+
+  <!-- Sales Card -->
+  <rect x="50" y="330" width="140" height="120" rx="10" fill="#1b2234" stroke="rgba(56,189,248,0.2)" />
+  <text x="65" y="360" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">MONTHLY REVENUE</text>
+  <text x="65" y="390" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="800">₹8,45,200</text>
+  <text x="65" y="420" fill="#34d399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">▲ +38.4% Growth</text>
+
+  <!-- Product Showcase Grid -->
+  <!-- Card 1 -->
+  <rect x="230" y="90" width="255" height="180" rx="12" fill="#131826" stroke="rgba(255,255,255,0.06)" />
+  <rect x="245" y="105" width="225" height="95" rx="8" fill="#1b2234" />
+  <circle cx="357" cy="152" r="30" fill="url(#accent-amber)" opacity="0.8" filter="url(#glow)" />
+  <polygon points="357,135 375,160 340,160" fill="#ffffff" />
+  <text x="245" y="222" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold">Pro Cyber Headset X1</text>
+  <text x="245" y="242" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700">₹14,999</text>
+  <rect x="420" y="225" width="50" height="26" rx="6" fill="url(#accent-amber)" />
+  <text x="432" y="242" fill="#0b0f19" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold">BUY</text>
+
+  <!-- Card 2 -->
+  <rect x="505" y="90" width="265" height="180" rx="12" fill="#131826" stroke="rgba(255,255,255,0.06)" />
+  <rect x="520" y="105" width="235" height="95" rx="8" fill="#1b2234" />
+  <circle cx="637" cy="152" r="30" fill="url(#cyan-glow)" opacity="0.8" filter="url(#glow)" />
+  <rect x="625" y="140" width="24" height="24" rx="4" fill="#ffffff" />
+  <text x="520" y="222" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold">Smart Watch Ultra Titan</text>
+  <text x="520" y="242" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700">₹24,500</text>
+  <rect x="690" y="225" width="50" height="26" rx="6" fill="url(#accent-amber)" />
+  <text x="702" y="242" fill="#0b0f19" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold">BUY</text>
+
+  <!-- Bottom Analytics Graph in App -->
+  <rect x="230" y="290" width="540" height="180" rx="12" fill="#131826" stroke="rgba(255,255,255,0.06)" />
+  <text x="250" y="320" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Realtime Order Velocity &amp; Conversions</text>
+  <path d="M 255 430 Q 340 370, 420 400 T 560 340 T 730 330" fill="none" stroke="url(#accent-amber)" stroke-width="3.5" />
+  <path d="M 255 430 Q 340 370, 420 400 T 560 340 T 730 330 L 730 450 L 255 450 Z" fill="url(#accent-amber)" opacity="0.08" />
+  <circle cx="560" cy="340" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+  <circle cx="730" cy="330" r="5" fill="#f97316" stroke="#ffffff" stroke-width="2" />
+</svg>
